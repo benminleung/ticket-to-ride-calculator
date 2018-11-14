@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/ticket-to-ride-calculator/static/js/runtime~main.02d44ffd.js"
   },
   {
-    "revision": "61c1299edcd0fd5db082",
-    "url": "/ticket-to-ride-calculator/static/js/main.61c1299e.chunk.js"
+    "revision": "139f4b4e8a9e93395c4b",
+    "url": "/ticket-to-ride-calculator/static/js/main.139f4b4e.chunk.js"
   },
   {
     "revision": "67083ef3d2a2a4b952c5",
     "url": "/ticket-to-ride-calculator/static/js/1.67083ef3.chunk.js"
   },
   {
-    "revision": "61c1299edcd0fd5db082",
+    "revision": "139f4b4e8a9e93395c4b",
     "url": "/ticket-to-ride-calculator/static/css/main.ccb21a26.chunk.css"
   },
   {
-    "revision": "4d5a63a13bee9b9443ebcd387a9b1999",
+    "revision": "2c3160ccf2f12819aacde1d996dc4fe5",
     "url": "/ticket-to-ride-calculator/index.html"
   }
 ];

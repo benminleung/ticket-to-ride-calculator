@@ -1,13 +1,13 @@
 {
   "main.css": "/ticket-to-ride-calculator/static/css/main.ccb21a26.chunk.css",
-  "main.js": "/ticket-to-ride-calculator/static/js/main.61c1299e.chunk.js",
-  "main.js.map": "/ticket-to-ride-calculator/static/js/main.61c1299e.chunk.js.map",
+  "main.js": "/ticket-to-ride-calculator/static/js/main.139f4b4e.chunk.js",
+  "main.js.map": "/ticket-to-ride-calculator/static/js/main.139f4b4e.chunk.js.map",
   "static/js/1.67083ef3.chunk.js": "/ticket-to-ride-calculator/static/js/1.67083ef3.chunk.js",
   "static/js/1.67083ef3.chunk.js.map": "/ticket-to-ride-calculator/static/js/1.67083ef3.chunk.js.map",
   "runtime~main.js": "/ticket-to-ride-calculator/static/js/runtime~main.02d44ffd.js",
   "runtime~main.js.map": "/ticket-to-ride-calculator/static/js/runtime~main.02d44ffd.js.map",
   "static/css/main.ccb21a26.chunk.css.map": "/ticket-to-ride-calculator/static/css/main.ccb21a26.chunk.css.map",
   "index.html": "/ticket-to-ride-calculator/index.html",
-  "precache-manifest.42e62471ae58cbde4d6d16c16f2651c4.js": "/ticket-to-ride-calculator/precache-manifest.42e62471ae58cbde4d6d16c16f2651c4.js",
+  "precache-manifest.bdf64447b0d161e91b02711d537cd117.js": "/ticket-to-ride-calculator/precache-manifest.bdf64447b0d161e91b02711d537cd117.js",
   "service-worker.js": "/ticket-to-ride-calculator/service-worker.js"
 }
