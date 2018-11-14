@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/benminleung/ticket-to-ride-calculator/precache-manifest.6a210b3dd76d894e7178b142137ee95c.js"
+  "/ticket-to-ride-calculator/precache-manifest.f0882046445cfc395b1a7cbb9ab250fb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/benminleung/ticket-to-ride-calculator/index.html", {
+workbox.routing.registerNavigationRoute("/ticket-to-ride-calculator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
