@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ticket-to-ride-calculator/precache-manifest.bdf64447b0d161e91b02711d537cd117.js"
+  "/ticket-to-ride-calculator/precache-manifest.5681016680e1da883e33c8cf717425c7.js"
 );
 
 workbox.clientsClaim();
