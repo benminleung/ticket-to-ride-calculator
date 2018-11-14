@@ -10,10 +10,10 @@ import './index.css';
 storeInit();
 
 const basename = process.env.PUBLIC_URL;
-console.log(basename);
+console.log('basename: ', basename);
 
 ReactDOM.render(
-  <Router basename={basename}>
+  <Router basename={`${process.env.PUBLIC_URL}/ticket-to-ride-calculator/`}>
     <App />
   </Router>,
   document.getElementById('root'),
