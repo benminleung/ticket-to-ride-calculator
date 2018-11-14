@@ -9,8 +9,11 @@ import './index.css';
 
 storeInit();
 
+const basename = process.env.PUBLIC_URL;
+console.log(basename);
+
 ReactDOM.render(
-  <Router>
+  <Router basename={basename}>
     <App />
   </Router>,
   document.getElementById('root'),
