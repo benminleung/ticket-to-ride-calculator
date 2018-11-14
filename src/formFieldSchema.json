@@ -1,0 +1,105 @@
+{
+    "versions": {
+        "classic": {
+            "id": "classic",
+            "path": "/classic",
+            "name": "Classic",
+            "versionFields": [
+                "completedRoutePoints",
+                "longestRoute",
+                "mostDestinationTickets",
+                "oneTrain",
+                "twoTrains",
+                "threeTrains",
+                "fourTrains",
+                "fiveTrains",
+                "sixTrains"
+            ]
+        },
+        "europe": {
+            "id": "europe",
+            "path": "/europe",
+            "name": "Europe",
+            "versionFields": [
+                "completedRoutePoints",
+                "longestRoute",
+                "stationsKept",
+                "oneTrain",
+                "twoTrains",
+                "threeTrains",
+                "fourTrains",
+                "sixTrains",
+                "eightTrains"
+            ]
+        }
+    },
+    "fields": {
+        "longestRoute": {
+            "id": "longestRoute",
+            "text": "Longest Route",
+            "checkbox": true,
+            "unitPoints": 10
+        },
+        "mostDestinationTickets": {
+            "id": "mostDestinationTickets",
+            "text": "Most Destination Tickets",
+            "checkbox": true,
+            "unitPoints": 10
+        },
+        "completedRoutePoints": {
+            "id": "completedRoutePoints",
+            "text": "Completed Route Points",
+            "unitPoints": 1
+        },
+        "oneTrain": {
+            "id": "oneTrain",
+            "text": "One train",
+            "unitPoints": 1
+        },
+        "twoTrains": {
+            "id": "twoTrains",
+            "text": "Two trains",
+            "unitPoints": 2
+        },
+        "threeTrains": {
+            "id": "threeTrains",
+            "text": "Three trains",
+            "unitPoints": 4
+        },
+        "fourTrains": {
+            "id": "fourTrains",
+            "text": "Four trains",
+            "unitPoints": 7
+        },
+        "fiveTrains": {
+            "id": "fiveTrains",
+            "text": "Five trains",
+            "unitPoints": 10
+        },
+        "sixTrains": {
+            "id": "sixTrains",
+            "text": "Six trains",
+            "unitPoints": 15
+        },
+        "sevenTrains": {
+            "id": "sevenTrains",
+            "text": "Seven trains",
+            "unitPoints": 1
+        },
+        "eightTrains": {
+            "id": "eightTrains",
+            "text": "Eight trains",
+            "unitPoints": 21
+        },
+        "nineTrains": {
+            "id": "nineTrains",
+            "text": "Nine trains",
+            "unitPoints": 27
+        },
+        "stationsKept": {
+            "id": "stationsKept",
+            "text": "Stations kept",
+            "unitPoints": 4
+        }
+    }
+}
