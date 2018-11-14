@@ -33,11 +33,11 @@ class App extends Component {
             ))}
           </ul>
         </nav>
-        <Route path="/" exact render={() => <div>Home</div>}/>
+        <Route path={`${process.env.PUBLIC_URL}/`} exact render={() => <div>Home</div>}/>
         {Object.keys(versions).map(version => (
           <Route
             key={`route-${version}`}
-            path={versions[version].path}
+            path={`${process.env.PUBLIC_URL}/${versions[version].path}`}
             exact
             render={() => <Version version={versions[version]} fields={fields} />}/>
         ))}
