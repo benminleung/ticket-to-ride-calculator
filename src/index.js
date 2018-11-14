@@ -13,7 +13,7 @@ const basename = process.env.PUBLIC_URL;
 console.log('basename: ', basename);
 
 ReactDOM.render(
-  <Router basename={`${process.env.PUBLIC_URL}/ticket-to-ride-calculator/`}>
+  <Router basename={`${process.env.PUBLIC_URL}/`}>
     <App />
   </Router>,
   document.getElementById('root'),
