@@ -2,7 +2,7 @@
   "name": "ticket-to-ride-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/benminleung/ticket-to-ride-calculator",
+  "homepage": "https://benminleung.github.io/ticket-to-ride-calculator/",
   "dependencies": {
     "@material-ui/core": "^3.4.0",
     "@material-ui/icons": "^3.0.1",
