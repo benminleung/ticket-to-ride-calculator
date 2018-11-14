@@ -9,9 +9,6 @@ import './index.css';
 
 storeInit();
 
-const basename = process.env.PUBLIC_URL;
-console.log('basename: ', basename);
-
 ReactDOM.render(
   <Router basename={`${process.env.PUBLIC_URL}/`}>
     <App />

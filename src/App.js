@@ -1,46 +1,37 @@
 import React, { Component } from 'reactn';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import Version from './containers/Version';
-import TopAppBar from './components/TopAppBar';
+import AppBarDrawerMenu from './components/AppBarDrawerMenu';
 
-const routes = [
-  {
+const routes = {
+  home: {
     path: '/',
     name: 'Home',
-    id: 'home',
   },
-];
+};
 
 class App extends Component {
   componentDidMount() {}
 
   render() {
-    const { formFields: { versions, fields } } = this.global;
+    const {
+      formFields: { versions, fields },
+    } = this.global;
     return (
-      <div>
-        <TopAppBar />
-        <nav>
-          <ul>
-            {routes.map(route => (
-              <li key={`route-link-${route.name}`}>
-                <Link to={route.path}>{route.name}</Link>
-              </li>
-            ))}
-            {Object.keys(versions).map(version => (
-              <li key={`route-link-${version}`}>
-                <Link to={versions[version].path}>{versions[version].name}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <Route path="/" exact render={() => <div>Home</div>}/>
-        {Object.keys(versions).map(version => (
-          <Route
-            key={`route-${version}`}
-            path={versions[version].path}
-            exact
-            render={() => <Version version={versions[version]} fields={fields} />}/>
-        ))}
+      <React.Fragment>
+        <CssBaseline />
+        <AppBarDrawerMenu versions={versions} routes={routes}>
+          <Route path="/" exact render={() => <div>Home</div>} />
+          {Object.keys(versions).map(version => (
+            <Route
+              key={`route-${version}`}
+              path={versions[version].path}
+              exact
+              render={() => <Version version={versions[version]} fields={fields} />}/>
+          ))}
+        </AppBarDrawerMenu>
+
         {/* {Object.keys()versions.map(version => (
           <Route
             key={`route-${version.key()}`}
@@ -50,7 +41,7 @@ class App extends Component {
               <Version version={route.id} />
             )}/>
         ))} */}
-      </div>
+      </React.Fragment>
     );
   }
 }
